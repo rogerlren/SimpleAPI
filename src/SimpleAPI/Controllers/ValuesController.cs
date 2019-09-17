@@ -21,7 +21,7 @@ namespace SimpleAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "Roger Ren";
+            return "My name is Roger!";
         }
 
         // POST api/values
